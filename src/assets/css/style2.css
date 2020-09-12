@@ -1,0 +1,268 @@
+httml,
+body {
+  margin: 0;
+  padding: 0;
+}
+.shadow-box {
+  box-shadow: 4px 8px 15px grey;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #aedad9;
+  line-height: 1.65;
+}
+a {
+  color: #016766;
+  text-decoration: none;
+}
+a :hover {
+  border-bottom: 3px solid orangered;
+}
+.container-main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container-left {
+  width: 800px;
+  height: 800px;
+  background-color: #eff8f7;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 25px 0 0 25px;
+  display: flex;
+  flex-direction: column;
+}
+.contain-head {
+  height: 100px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.head-right {
+  display: flex;
+}
+
+.head-right nav {
+  width: 140px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-right input {
+  width: 250px;
+  height: 40px;
+  border-radius: 30px;
+}
+.head-left img {
+  width: 50px;
+  height: 50px;
+}
+.container-right {
+  width: 400px;
+  height: 800px;
+  background-color: white;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 0 25px 25px 0;
+  display: flex;
+  float: right;
+}
+.cf-top h5 {
+  color: #016766;
+}
+.contain-body {
+  display: flex;
+  flex-direction: column;
+}
+.cb-top {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.cb-top h2,
+.cb-top h5 {
+  font-weight: strong;
+  margin: 10px 10px 10px 0;
+  color: #1e3431;
+}
+.cb-mid {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.cb-mid nav {
+  display: flex;
+  width: 500px;
+}
+
+.cb-mid nav a {
+  margin-right: 30px;
+}
+
+.cb-hero {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.cb-hero-first {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cb-hero-second {
+  width: 240px;
+  height: 300px;
+}
+.cb-hero-third {
+  width: 150px;
+  height: 300px;
+}
+
+.hf-top {
+  width: 100%;
+  height: 45%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.hf-satu {
+  height: 100%;
+  border-radius: 25px;
+  box-sizing: border-box;
+  background-color: white;
+  width: 45%;
+  margin-right: 10px;
+}
+p {
+  font-weight: strong;
+  color: #016766;
+}
+
+.hf-dua {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 25px;
+  box-sizing: border-box;
+  background-color: #ffbc01;
+  width: 55%;
+  margin-left: 10px;
+}
+.hf-satu p,
+.hf-dua p,
+.hf-bot h2,
+.cb-ht-first p,
+.cb-ht-second p {
+  text-align: center;
+}
+.cb-hero-second img {
+  box-shadow: 4px 8px 15px grey;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.hf-bot {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 25px;
+  box-sizing: border-box;
+  align-self: bottom;
+  background-color: #016766;
+  width: 100%;
+  height: 60%;
+}
+
+.cb-hero-third {
+  display: flex;
+  flex-direction: column;
+}
+
+.cb-ht-first {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 55%;
+  margin-bottom: 20px;
+}
+.cb-ht-second {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 45%;
+  background-color: #016766;
+}
+.contain-foot {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.cf-top {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 20px 40px 0 0;
+}
+.cf-hero {
+  display: flex;
+  height: 100%;
+}
+.cf-hero-first,
+.cf-hero-second {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: white;
+}
+.cf-hero-first {
+  margin-right: 10px;
+}
+.cf-hero-second {
+  margin-left: 10px;
+}
+
+/* .container-main {
+  width: 1200px;
+  height: 800px;
+  margin: 50px auto;
+  background-color: #eff8f7;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  display: flex;
+}
+
+.container-left {
+  flex: 3;
+  order: 1;
+}
+
+.container-right {
+  flex: 2;
+  order: 2;
+  background-color: white;
+} */
